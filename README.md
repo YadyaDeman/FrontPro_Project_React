@@ -1,10 +1,8 @@
 # Getting Started with Create React App
 
-<<<<<<< HEAD
 
-=======
-https://vk.com/id183358949?z=photo183358949_457239114%2Fphoto_feed183358949
->>>>>>> homework-02
+
+
 
 function functionName(user) {
     return user.firstName + ' ' + user.lastName;

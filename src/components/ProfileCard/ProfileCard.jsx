@@ -3,7 +3,7 @@ import "./styles.css";
 function ProfileCard() {
   const userData = {
     avatar:
-      "https://static.wikia.nocookie.net/garfield/images/0/07/Garfield_Movie.png/revision/latest/scale-to-width/360?cb=20160503191957",
+      "https://static.wikia.nocookie.net/garfield/images/0/07/Garfield_Movie.png",
     userName: "Garfield",
     profession: "Cat",
     hobby: "Sleep",
