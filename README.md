@@ -1,5 +1,30 @@
 # Getting Started with Create React App
 
+https://vk.com/id183358949?z=photo183358949_457239114%2Fphoto_feed183358949
+
+function functionName(user) {
+    return user.firstName + ' ' + user.lastName;
+}
+
+const user = {
+    firstName: 'Garfield';
+    lastName: 'Demiamov'
+}
+
+const element = (
+    <h1>
+    My name {functionName(user)}!
+    </h1>
+);
+
+
+v danniy moment 'ne' avtorizirovan 
+{uslovie ? true/false}:
+return (
+    <div>Polzovatel <b>{functionName ? 'v danniy moment' : 'ne'}</b> avtorizirovan. </div>
+)
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
