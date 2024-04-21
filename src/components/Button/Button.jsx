@@ -1,10 +1,21 @@
 import "./styles.css";
 
+function Button({ name, type = "button", onButtonClick }) {
+  return (
+    <button className="button-component" type={type} onClick={onButtonClick}>
+      {name}
+    </button>
+  );
+}
+
+export default Button;
+
+/*3 lekziya knopki primary i secondary 
 function Button({ buttonName = "Get data", isPrimaryButton}) {
-  /* 1 вариант
+  1 вариант
   const buttonClass = isPrimaryButton
     ? "main-button primary-button"
-    : "main-button secondary-button"; */
+    : "main-button secondary-button"; 
 
   // 2 вариант
   const buttonClass = `main-button ${
@@ -16,7 +27,7 @@ function Button({ buttonName = "Get data", isPrimaryButton}) {
 export default Button;
 
 
-/*knopki 2 lekziya
+2 lekziya knopki 
 function Button() {
   const sendButtonName = "Send";
   const getButtonName = "Get";
