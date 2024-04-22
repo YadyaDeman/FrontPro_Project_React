@@ -5,7 +5,8 @@ import "./App.css";
 //import Consultation_01 from "./consultations/Consultation01/Consultation01";
 //import Lesson03_Animal from "./lessons/Lesson03_Animal/Lesson03_Animal";
 //import Homework03 from "./homeworks/Homework03/Homework03";
-import Lesson04 from "./lessons/Lesson04_Button/Lesson04";
+//import Lesson04 from "./lessons/Lesson04_Button/Lesson04";
+import Homework04 from "./homeworks/Homework04_DisLike/Homework04_DisLike";
 
 
 function App() {
@@ -16,7 +17,8 @@ function App() {
       {/* <Lesson03 /> */}
       {/* <Lesson03_Animal /> */}
       {/* <Homework03 /> */}
-      <Lesson04 />
+      {/* <Lesson04 /> */}
+      <Homework04 />
     </div>
   );
 }
